@@ -33,3 +33,6 @@ W20150305-23:02:12.338(0)? (STDERR)     at Function._.each._.forEach (/Users/ric
 => Your application is crashing. Waiting for file change.
 W20150305-23:02:12.338(0)? (STDERR)     at /Users/richardsmith/Projects/meteor-test/bugrepo-jasmine-rf/.meteor/local/build/programs/server/boot.js:116:5
 ```
+
+
+But, if I switch the order of the sanjo:jasmine and rsbatech:robotframework packages around in the `.meteor/packages.js` file (so rsbatech:robotframework is last), so both sets of test run OK.
