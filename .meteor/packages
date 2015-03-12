@@ -8,6 +8,6 @@ meteor-platform
 autopublish
 insecure
 velocity:html-reporter
-rsbatech:robotframework
-sanjo:jasmine
+xolvio:cucumber
 
+sanjo:jasmine
